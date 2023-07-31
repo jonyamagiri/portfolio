@@ -125,4 +125,67 @@ nav {
 }
 
 
+/* hero styling */
+
+.hero {
+    background-color: #feefde;
+}
+
+.hero-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: center;
+    gap: 2rem;
+}
+
+.hero-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-info h4 {
+    font-size: 1.2rem;
+    line-height: 1.75rem;
+    color: #6b7280;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.hero-info h1 {
+    font-size: 3rem;
+    line-height: 1;
+    color: #6b7280;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.hero-info p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #48494b;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.hero-btn-container {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
