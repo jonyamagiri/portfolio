@@ -41,7 +41,8 @@ ion-icon {
 
 nav {
     background-color: #feefde;
-    padding: 20px 0;    
+    padding: 20px 0;
+    transition: 0.3s all ease-in-out; 
 }
 
 .navbar {
@@ -96,6 +97,22 @@ nav {
 .hamburger {
     display: none;
 }
+
+.sticky-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.16);
+    transition: 0.3s all ease-in-out;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
 
 @media only screen and (max-width: 768px) {
     .hamburger {
