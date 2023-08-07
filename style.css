@@ -28,6 +28,15 @@ li {
     max-width: 1044px;
 }
 
+ion-icon {
+    background-color: rgb(5, 73, 5);
+    padding: 7px;
+    font-size: 24px;
+    color: white;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
 /* nav styling */
 
 nav {
@@ -224,6 +233,89 @@ nav {
         margin-top: 40px;
     }
 }
+
+
+/* skills styling */
+
+.skills {
+    padding: 3rem 0;
+}
+
+.skills-heading h2 {
+    font-size: 2rem;
+    line-height: 1;
+    color: #6b7280;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.skills-heading p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: #48494b;
+}
+
+.skills-heading span {
+    color: rgb(5, 73, 5);
+    font-weight: 700;
+}
+
+.skill-boxes {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.skill-box {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 30px;
+}
+
+.skill-box h3 {
+    font-weight: 400;
+    color: #6b7280;
+    margin-bottom: 5px;
+}
+
+.skill-box p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: #48494b;
+}
+
+@media only screen and (max-width: 768px) {
+    .skill-boxes {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
